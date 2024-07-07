@@ -1,0 +1,441 @@
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+  /* ! Position Enquire Now Form Start */
+  .activeFormOuter {
+    width: 100%;
+  }
+  .form-outer > form {
+    width: 100%;
+  }
+  /* ! Position Enquire Now Form End */
+  /* ! Position Social Buttons Start */
+  .socialBtn-box {
+    position: fixed;
+    top: 40%;
+    right: 10px;
+    z-index: 99999999;
+  }
+  /* ! Position Social Buttons End */
+  /* ! Header Section Start */
+  header {
+    width: 100%;
+    padding: 0px 20px 0px 10px;
+  }
+  header > figure > img {
+    width: 150px;
+  }
+  nav {
+    width: 70%;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    background-color: white;
+    padding: 20px;
+    position: absolute;
+    top: 53px;
+    left: -100%;
+    transition: 0.5s;
+  }
+  .activeNav {
+    left: 0%;
+  }
+  nav > ul {
+    flex-direction: column;
+  }
+  nav > ul > li > a {
+    font-size: 12px;
+  }
+  .fa-bars {
+    display: block;
+  }
+  .callBtn {
+    display: none;
+  }
+  /* ! Header Section End */
+  /* ! Register Your Interest Section Start */
+  .main-your--interest {
+    background: url("../images/blue.webp") no-repeat top left;
+    background-size: cover;
+  }
+  .mid-your--interest {
+    max-width: 100%;
+    padding: 50px 20px;
+    flex-direction: column;
+  }
+  .left-content {
+    flex-basis: 100%;
+  }
+  .left-content > h2,
+  .left-content > h3 {
+    font-size: 25px;
+    color: var(--white-color);
+    margin-bottom: 10px;
+  }
+  .left-content > h3 {
+    color: var(--theme-color);
+  }
+  .left-content > p {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+  }
+  .left-content--items {
+    flex-basis: 100%;
+    border-left: none;
+  }
+  .left-content--items > h4 {
+    font-size: 18px;
+  }
+  .left-content--items > span {
+    font-size: 17px;
+  }
+  .right-content {
+    flex-basis: 100%;
+  }
+  .right-content > form {
+    width: 100%;
+    padding: 30px;
+    display: block;
+    row-gap: 50px;
+  }
+  .right-content form > h4 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .right-content form > input {
+    width: 100%;
+  }
+  /* ! Register Your Interest Section End */
+  /* ! Gallery Section Start */
+  .mid-gallery {
+    max-width: 100%;
+    margin: auto;
+    padding: 50px 20px;
+  }
+  .gallery-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .gallery-Items {
+    flex-basis: 100%;
+  }
+  .activeImage {
+    width: 80%;
+    height: auto;
+  }
+  .fa-xmark {
+    top: 30%;
+    right: 10%;
+  }
+  /* ! Gallery Section End */
+  /* ! Why Jumeirah Section Start */
+  .mid-why--jumeirah {
+    max-width: 100%;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  .mid-why--jumeirah > p {
+    text-align: justify;
+  }
+  .jumeirah-Items {
+    flex-basis: 45%;
+  }
+  /* ! Why Jumeirah Section End */
+  /* ! Floor Plan Section Start */
+  .mid-floor--plan {
+    max-width: 100%;
+    padding: 50px 20px;
+  }
+  .floor-plan--container {
+    max-width: 100%;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .floor-plan--items {
+    flex-basis: 100%;
+  }
+  .floor-plan--items > img {
+    width: 100%;
+    border: 1px solid black;
+  }
+  /* ! Floor Plan Section End */
+  /* ! Amenities Section Start */
+  .mid-amenities {
+    max-width: 100%;
+    padding: 50px 10px;
+  }
+  .btn-box {
+    padding: 30px 0px 20px 0px;
+  }
+  .btn-box > .AllBtn {
+    font-size: 14px;
+  }
+  .aminities-btn-items {
+    gap: 10px;
+    margin-bottom: 460px;
+  }
+  .aminities-btn-items > figure {
+    flex-basis: 42%;
+    padding: 10px 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .aminities-btn-items > figure > img {
+    width: 100%;
+  }
+  .aminities-btn-items > figure figcaption {
+    font-size: 15px;
+  }
+  /* ! Amenities Section End */
+  /* ! Location Map Section Start */
+  .mid-location {
+    max-width: 100%;
+    padding: 50px 10px;
+  }
+  .mid-location > img {
+    border: 1px solid black;
+  }
+  /* ! Location Map Section End */
+  /* ! WalkThrough Section Start */
+  .mid-walkthrough {
+    width: 100%;
+  }
+  iframe {
+    width: 100%;
+    height: 250px;
+  }
+  /* ! WalkThrough Section End */
+  /* ! Enquire Today Section Start */
+  .mid-emquire--today {
+    max-width: 100%;
+    padding: 0px 0px;
+    flex-direction: column;
+  }
+  .left-enquiry--img {
+    display: none;
+  }
+  .right-enquiry--content {
+    flex-basis: 100%;
+  }
+  .right-enquiry--content > form {
+    padding: 0px;
+    display: block;
+  }
+  form > .input-row {
+    gap: 20px;
+    flex-direction: column;
+  }
+  form > .input-row input {
+    flex-basis: 100%;
+    border: 1px solid black;
+  }
+  #Message {
+    border: 1px solid black;
+  }
+  /* ! Enquire Today Section End */
+  /* ! Footer Section Start */
+  .mid-footer {
+    max-width: 100%;
+    padding: 50px 20px;
+    flex-direction: column;
+  }
+  .left-footer {
+    flex-basis: 100%;
+  }
+  .right-footer {
+    flex-basis: 100%;
+    text-align: center;
+  }
+  footer p {
+    text-align: center;
+  }
+  .left-footer > img {
+    width: 250px;
+  }
+  .right-footer > ul {
+    justify-content: center;
+    gap: 30px;
+  }
+  .right-footer > img {
+    width: 180px;
+  }
+  .mid-footer--2 {
+    max-width: 100%;
+    padding: 50px 20px;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  /* ! Footer Section End */
+}
+
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+  /* ! Header Section Start */
+  header {
+    width: 100%;
+    padding: 0px 20px 0px 10px;
+  }
+  nav {
+    width: 70%;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    background-color: white;
+    padding: 20px;
+    position: absolute;
+    top: 53px;
+    left: -100%;
+    transition: 0.5s;
+  }
+  .activeNav {
+    left: 0%;
+  }
+  nav > ul {
+    flex-direction: column;
+  }
+  nav > ul > li > a {
+    font-size: 12px;
+  }
+  .fa-bars {
+    font-size: 35px;
+    display: block;
+  }
+  .callBtn {
+    display: none;
+  }
+  /* ! Header Section End */
+  /* ! Register Your Interest Section Start */
+  .main-your--interest {
+    background: url("../images/blue.webp") no-repeat top left;
+    background-size: cover;
+  }
+  .mid-your--interest {
+    max-width: 100%;
+    padding: 50px 20px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .left-content {
+    flex-basis: 100%;
+  }
+  .right-content {
+    flex-basis: 100%;
+  }
+  .right-content > form {
+    display: block;
+  }
+  .right-content form > input {
+    width: 100%;
+  }
+  /* ! Register Your Interest Section End */
+  /* ! Gallery Section Start */
+  .gallery-container {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .gallery-Items {
+    flex-basis: 48%;
+  }
+  .activeImage {
+    width: 90%;
+    height: auto;
+  }
+  .fa-xmark {
+    font-size: 50px;
+    top: 15%;
+    right: 5%;
+  }
+  /* ! Gallery Section End */
+  /* ! Why Jumeirah Section Start */
+  .mid-why--jumeirah {
+    max-width: 100%;
+    padding: 50px 20px;
+  }
+  .jumeirah-container {
+    justify-content: center;
+    row-gap: 20px;
+  }
+  .jumeirah-Items {
+    flex-basis: 24%;
+  }
+  /* ! Why Jumeirah Section End */
+  /* ! Floor Plan Section Start */
+  .mid-floor--plan {
+    max-width: 100%;
+    padding: 50px 20px;
+  }
+  .floor-plan--container {
+    max-width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .floor-plan--items {
+    flex-basis: 48%;
+    border: 1px solid black;
+  }
+  /* ! Floor Plan Section End */
+  /* ! Amenities Section Start */
+  .mid-amenities {
+    max-width: 100%;
+    padding: 50px 20px;
+  }
+  .aminities-btn-items {
+    padding: 50px 0px;
+    padding-bottom: 100px;
+  }
+  /* ! Amenities Section End */
+  /* ! Location Map Section Start */
+  .mid-location {
+    max-width: 100%;
+    padding: 50px 20px;
+  }
+  /* ! Location Map Section End */
+  /* ! WalkThrough Section Start */
+  .mid-walkthrough {
+    width: 100%;
+    padding: 50px 20px;
+  }
+  iframe {
+    width: 100%;
+    height: 440px;
+  }
+  /* ! WalkThrough Section End */
+  /* ! Enquire Today Section Start */
+  .mid-emquire--today {
+    max-width: 100%;
+    padding: 50px 20px;
+  }
+  .left-enquiry--img {
+    display: none;
+  }
+  .right-enquiry--content {
+    flex-basis: 100%;
+  }
+  .right-enquiry--content > form {
+    display: block;
+    padding: 0px;
+  }
+  form > .input-row input {
+    padding: 15px;
+    border: 1px solid black;
+  }
+  #Message {
+    padding: 15px;
+    border: 1px solid black;
+  }
+  /* ! Enquire Today Section End */
+  /* ! Footer Section Start */
+  .mid-footer {
+    max-width: 100%;
+    padding: 50px 20px;
+  }
+  .left-footer > img {
+    width: 200px;
+  }
+  .right-footer {
+    flex-basis: 60%;
+  }
+  .mid-footer--2 {
+    max-width: 100%;
+    padding: 50px 20px;
+    line-height: 30px;
+  }
+  /* ! Footer Section End */
+}
