@@ -376,7 +376,7 @@ form > button:hover {
 .activeImage-open {
   display: block;
 }
-.fa-xmark {
+.xBtn {
   cursor: pointer;
   font-size: 30px;
   color: var(--white-color);
